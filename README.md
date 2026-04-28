@@ -137,5 +137,3 @@ voxcivica/
 - For production: replace JSON store with Firestore, use proper auth
 
 ---
-
-*Built with ❤️ for Google Solution Challenge 2025*
