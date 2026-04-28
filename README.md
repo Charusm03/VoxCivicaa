@@ -74,31 +74,9 @@ FastAPI Backend (localhost:8000)
 
 ### 1. Start the Backend
 
-```bash
-cd voxcivica/backend
-venv\Scripts\activate          # Windows
-pip install -r requirements.txt
-
-# Add your Gemini API key to .env
-echo "GEMINI_API_KEY=your_key_here" > .env
-
-uvicorn main:app --reload --port 8000
-```
-
 ### 2. Start ngrok
 
-```bash
-ngrok config add-authtoken YOUR_NGROK_TOKEN
-ngrok http 8000
-# Copy the https://xxxx.ngrok-free.app URL
-```
-
 ### 3. Update Flutter API URL
-
-In `voxcivica_app/lib/api_service.dart`, update:
-```dart
-const String baseUrl = 'https://YOUR-NGROK-URL.ngrok-free.app';
-```
 
 ### 4. Run Flutter App
 
