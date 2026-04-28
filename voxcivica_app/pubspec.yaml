@@ -1,0 +1,28 @@
+name: voxcivica_app
+description: "VoxCivica - AI-powered civic voice translator"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  speech_to_text: ^6.6.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^14.0.2
+  supabase_flutter: ^2.12.4
+  google_sign_in: 6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
